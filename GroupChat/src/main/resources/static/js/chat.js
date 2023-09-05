@@ -1,3 +1,7 @@
 $(function(){
-    alert('MMMMM');
+    $('.send-message').on('click', function(){
+        $.get('/init', {}, function(response) {
+            alert(response);
+        });
+    });
 });
