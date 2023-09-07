@@ -17,7 +17,7 @@ public class ChatController {
         HashMap<String, Boolean> response = new HashMap<>();
         //TODO: check sessionId. If found => true, if not => false
 
-        response.put("result", true);
+        response.put("result", false);
         return response;
     }
 
