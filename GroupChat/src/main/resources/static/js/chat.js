@@ -1,4 +1,11 @@
 $(function(){
+    let updateMessages = function(){
+        $.get('/message', {}, function(){
+
+        });
+
+    };
+
     let initApplication = function(){
         $('.messages-and-users').css({display: 'flex'});
         $('.controls').css({display: 'flex'});
