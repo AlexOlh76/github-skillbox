@@ -54,6 +54,7 @@ public class Message {
         this.user = user;
     }
 
-
-
+    public User getUser() {
+        return user;
+    }
 }
