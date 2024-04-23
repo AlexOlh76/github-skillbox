@@ -4,6 +4,7 @@
 ### Java ###
 # Compiled class file
 *.class
+.gitignore
 
 # Log file
 *.log
@@ -36,6 +37,7 @@ hs_err_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+**/res/
 
 # Generated files
 .idea/**/contentModel.xml
